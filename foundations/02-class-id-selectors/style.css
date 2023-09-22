@@ -1,0 +1,23 @@
+/* Para todos los elementos impares */
+.odd-element {
+    background-color: #FFC0CB; /* light red/pink */
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+/* Para el segundo elemento */
+#second-element {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Para el tercer elemento (que también es un elemento impar) */
+.third-element {
+    font-size: 24px;
+}
+
+/* Para el cuarto elemento */
+#fourth-element {
+    background-color: #90EE90; /* light green */
+    font-size: 24px;
+    font-weight: bold;
+}
