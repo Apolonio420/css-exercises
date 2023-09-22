@@ -1,0 +1,28 @@
+/* Estilos compartidos */
+.common-styles {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.common-styles:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo específico para el primer botón relacionado con la libertad */
+.black-background {
+    background-color: black;
+    color: white;
+}
+
+/* Estilo específico para el segundo botón relacionado con el libertarismo */
+.yellow-background {
+    background-color: yellow;
+    color: black;
+}
