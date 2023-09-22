@@ -1,1 +1,11 @@
-/* Add CSS Styling */
+/* Para la imagen con las clases "avatar" y "proportioned" */
+.avatar.proportioned {
+    width: 300px;
+    height: auto; /* Esto asegura que la imagen mantenga sus proporciones originales */
+}
+
+/* Para la imagen con las clases "avatar" y "distorted" */
+.avatar.distorted {
+    width: 200px;
+    height: 400px; /* Doble del ancho para que esté distorsionada */
+}
