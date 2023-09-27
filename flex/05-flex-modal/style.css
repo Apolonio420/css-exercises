@@ -67,3 +67,43 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.icon-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.text {
+  display: flex;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.modal {
+  padding: 10px; /* Para agregar padding alrededor del borde del modal */
+}
+.header {
+  font-weight: bold;
+  font-size: 24px; /* Ajusta según sea necesario */
+}
+.continue, .cancel {
+  margin-right: 8px; /* Ajusta según sea necesario */
+}
+.text-container {
+  padding: 10px;
+  overflow-wrap: break-word; /* Esto hace que las palabras largas se rompan y pasen a la siguiente línea */
+}
