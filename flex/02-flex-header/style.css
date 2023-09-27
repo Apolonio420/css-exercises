@@ -1,6 +1,30 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: papayawhip;
+  font-family: monospace;
+}
+
+.left-links, .right-links {
+  display: flex; /* Se activa flexbox en los contenedores de enlaces para hacerlos horizontales */
+}
+
+.left-links ul, .right-links ul {
+  display: flex; /* Se activa flexbox en las listas para hacer los elementos de la lista horizontales */
+  padding: 0; /* Quita el padding default de las listas */
+  margin: 0; /* Quita el margen default de las listas */
+}
+
+.left-links li, .right-links li {
+  margin-right: 20px; /* Agrega espacio a la derecha de cada elemento de la lista */
+}
+
+.right-links li:last-child {
+  margin-right: 0; /* Quita el espacio a la derecha del último elemento de la lista */
 }
 
 .logo {
@@ -12,14 +36,17 @@
 }
 
 ul {
-  /* this removes the dots on the list items*/
-  list-style-type: none;
+  list-style-type: none; /* Quita los puntos de las listas */
 }
 
 a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
-  text-decoration: none;
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: black; /* Cambia el color del texto de los enlaces a negro */
+}
+
+a:hover {
+  color: tomato; /* Cambia el color del texto de los enlaces a tomato al pasar el cursor */
 }
