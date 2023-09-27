@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Nesting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container main-container">
+        <div class="flex-container nested-container">
+            <div class="flex-item" id="item1">
+                <div class="flex-container sub-container">
+                    <div class="sub-item">A</div>
+                    <div class="sub-item">B</div>
+                </div>
+            </div>
+            <div class="flex-item" id="item2">
+                <div class="flex-container sub-container">
+                    <div class="sub-item">C</div>
+                    <div class="sub-item">D</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-container nested-container">
+            <div class="flex-item" id="item3">
+                <div class="flex-container sub-container">
+                    <div class="sub-item">E</div>
+                    <div class="sub-item">F</div>
+                </div>
+            </div>
+            <div class="flex-item" id="item4">
+                <div class="flex-container sub-container">
+                    <div class="sub-item">G</div>
+                    <div class="sub-item">H</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

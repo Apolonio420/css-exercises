@@ -1,0 +1,52 @@
+./* Estilos para el contenedor principal */
+.flex-container {
+    display: flex; /* Establece el modelo de caja flexible en el contenedor */
+    margin: 0px; /* Espacio exterior del contenedor. Cambia el valor para ver cómo afecta el espacio fuera del contenedor principal */
+    padding: 0px; /* Espacio interior del contenedor. Cambia el valor para ver cómo afecta el espacio dentro del contenedor principal */
+}
+
+/* Estilos para el contenedor anidado */
+.nested-container {
+    flex: 1; /* Toma todo el espacio disponible en el contenedor principal. */
+    display: flex; /* Establece el modelo de caja flexible en el contenedor anidado */
+    flex-direction: column; /* Organiza los elementos hijos en una columna */
+    margin: 0px; /* Espacio exterior del contenedor anidado. Cambia el valor para ver cómo afecta el espacio fuera del contenedor anidado */
+    padding: 0px; /* Espacio interior del contenedor anidado. Cambia el valor para ver cómo afecta el espacio dentro del contenedor anidado */
+}
+
+/* Estilos para los items */
+.flex-item {
+    flex: 1; /* Toma todo el espacio disponible en su contenedor padre */
+    position: relative; /* Establece la posición relativa para los items */
+    color: white; /* Color del texto en los items */
+    margin: 0px; /* Espacio exterior de los items. Cambia el valor para ver cómo afecta el espacio fuera de los items */
+    padding: 0px; /* Espacio interior de los items. Cambia el valor para ver cómo afecta el espacio dentro de los items */
+    border: 0px solid black; /* Borde de los items. Cambia el valor para ver cómo afecta el tamaño y color del borde de los items */
+}
+
+/* Estilos para los sub-contenedores dentro de los items */
+.sub-container {
+    display: flex; /* Establece el modelo de caja flexible en el sub-contenedor */
+    height: 100%; /* Altura total del sub-contenedor */
+    flex-direction: column; /* Organiza los elementos hijos en una columna */
+    margin: 0px; /* Espacio exterior del sub-contenedor. Cambia el valor para ver cómo afecta el espacio fuera del sub-contenedor */
+    padding: 0px; /* Espacio interior del sub-contenedor. Cambia el valor para ver cómo afecta el espacio dentro del sub-contenedor */
+}
+
+/* Estilos para los sub-items dentro de los sub-contenedores */
+.sub-item {
+    flex: 1; /* Toma todo el espacio disponible en su contenedor padre */
+    display: flex; /* Establece el modelo de caja flexible en el sub-item */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    font-size: 1.5rem; /* Tamaño del texto en los sub-items */
+    font-weight: bold; /* Grosor del texto en los sub-items */
+    margin: 0px; /* Espacio exterior del sub-item. Cambia el valor para ver cómo afecta el espacio fuera del sub-item */
+    padding: 0px; /* Espacio interior del sub-item. Cambia el valor para ver cómo afecta el espacio dentro del sub-item */
+    border: 0px solid black; /* Borde del sub-item. Cambia el valor para ver cómo afecta el tamaño y color del borde del sub-item */
+}
+
+/* Estableciendo colores para cada item y sub-item */
+/* (Puedes cambiar estos colores como quieras) */
+/* ... */
+
